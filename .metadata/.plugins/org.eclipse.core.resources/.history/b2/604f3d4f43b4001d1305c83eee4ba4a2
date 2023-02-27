@@ -1,0 +1,76 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       // System.out.println("Hola mundo");
+	      System.out.print(3+2);
+	      System.out.println("2+3");
+	      System.out.println(3*2);
+	      System.out.println(3* 2);
+	      System.out.printf("5*2=%d",5*2).println()
+	      System.out.println();
+	      System.out.printf(" 5 + 6 + 7=%d", 5 + 6 + 7).println();
+	      System.out.printf("%d + %d + %d", 5 ,6 , 7 , 5 + 6 + 7.println()
+	   // underscore
+	      int edad_de_persona = 2;
+	      // upper camel case
+	      int EdadDePersona = 3;
+	      // lower camel case (opción recomendada en Java)
+	      int edadDePersona = 4
+	      int c = 10;
+	      System.out.println(c);
+	      // el valor de la variable c cambia a 11
+	      c = 11;
+	      System.out.println(c);
+	      int d = 5;
+	      int e = d;
+	      int f = d + e;
+	      System.out.printf("%d + %d = %d", d, e, f).println();
+	   // las tres variables declaradas son de tipo entero
+	      int a = 1, b = 2, c = 1;
+	      public class Main {
+	      public static void main(String[] args) {
+	    	    int a = 10;
+	    	    int b = 20;
+	    	    int c = 30;
+	    	    System.out.println("El valor de a es: " + a);
+	    	    System.out.println("El valor de b es: " + b);
+	    	    System.out.println("El valor de c es: " + c);
+	    	    System.out.println("La suma de a, b y c es: " + (a + b + c));
+	    	    c = 20;
+	    	    System.out.printf("La suma de %d, %d y %d es %d", a, b, c, a + b + c);
+	    	    La suma de 4, 7 y 10 es 21
+	    	    byte b = 5;
+	    	    short s = 128;
+	    	    int i = 40000:
+	    	 // en variables de tipo long hay que añadir el carácter L al final del número
+	    	    long l = 2222222222L;
+	    	 // declaración correcta
+	    	    int j = 2147483647;
+	    	 // error porque las variables de tipo int no puede almacenar un número de esa magnitud
+	         // int k = 2147483648;
+	    	// long sí admite valores de esta magnitud
+	    	    long l = 2147483648L;
+	    	    int j = 2147483647;
+	    	// el valor de j es incrementado
+	    	 j = j + 1;
+	       // el valor de j es ahora -2147483648
+	    	 System.out.println(j);
+	    	 double m = 67.0;
+	    	// error porque las variables de tipo float terminan con la letra f o F 
+	    	(una de las dos)
+	    	// float n = 4.0;;
+	    	// declaración correcta de una variable de tipo float
+	    	float o = 4.0f;
+	    	// declaración correcta de una variable de tipo char
+	    	char c = 'A';
+	    	// error porque char solamente soporta un carácter
+	    	// char cab = 'AB';
+	    	// error porque el carácter debe ir encerrado entre comillas simples
+	    	// char cab = A;
+	    	
+	      
+	    	}
+	}
+}

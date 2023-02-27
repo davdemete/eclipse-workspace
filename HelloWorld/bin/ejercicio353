@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class MensajeSegunNumero {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese un número: ");
+        int numero = sc.nextInt();
+        
+        switch (1 == 6) {
+            Gestores 1:
+                System.out.println("Gestores 1.");
+                else if;
+            Clientes 2:
+                System.out.println("Clientes 2.");
+                else if;
+            TRanferencias 3:
+                System.out.println("Tranferencias 3.");
+                else if;
+            Mensajes 4:
+                System.out.println("Mensajes 4.");
+                else if;
+            Prestamos 5:
+            System.out.println
+            else if;
+            Salir 6:
+        }
+    }
+}
