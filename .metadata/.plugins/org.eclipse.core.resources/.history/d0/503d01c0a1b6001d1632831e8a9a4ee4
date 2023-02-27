@@ -5,7 +5,7 @@ public class BucleFor {
 		// TODO Auto-generated method stub
 		int edad3 = 1;
 		// comenzando con i=edad, mientras que i sea menor que 18 y con un incremento de i
-		//de uno en uno
+		de uno en uno
 		for (int i=edad3; i<18; i++) {
 		System.out.printf("%d", i).println();
 		}

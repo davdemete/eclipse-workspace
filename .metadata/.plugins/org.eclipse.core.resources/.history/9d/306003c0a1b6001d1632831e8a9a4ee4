@@ -1,11 +1,6 @@
-import java.io.InputStream;
 import java.util.Scanner
 
 public class Scanner {
-
-	public Scanner(InputStream in) {
-		// TODO Auto-generated constructor stub
-	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -20,11 +15,6 @@ public class Scanner {
 		System.out.println("El triple es %d",numero *3).println();
 		
 
-	}
-
-	public int nextInt() {
-		// TODO Auto-generated method stub
-		return 0;
 	}
 
 }
