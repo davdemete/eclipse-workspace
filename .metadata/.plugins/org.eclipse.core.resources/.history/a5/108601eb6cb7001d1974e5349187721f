@@ -15,9 +15,7 @@ public class Maincoche {
 		System.out.printf("%f Kw",kw).println();
 		float cv = Coche.convertirKwCv(kw);
 		System.out.printf("%f CV",cv).println();
-		
 	}
-	
 }
 
 	
