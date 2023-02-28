@@ -3,12 +3,12 @@ public class Ejercicio5 {
 
 	public static void main(String[] args) {
 		// Atributos
-	    int id;
-	    int edad;
-	    int telefono;
-	    int numeroDeNotas;
-	    int sumaDeNotas;
-	    float notaMedia;
+	    private int id;
+	    private int edad;
+	    private String telefono;
+	    private int numeroDeNotas;
+	    private double sumaDeNotas;
+	    private double notaMedia;
 
 	    // Constructor
 	    
@@ -21,13 +21,13 @@ public class Ejercicio5 {
 	    }
 
 	    // Métodos
-	    public void mostrarInfo() 
-			System.out.println("ID: " + id)
-			System.out.println("Edad: " + edad);
+	    public void mostrarInfo() {
+	        System.out.println("ID: " + id);
+	        System.out.println("Edad: " + edad);
 	        System.out.println("Teléfono: " + telefono);
 	        System.out.println("Número de notas: " + numeroDeNotas);
 	        System.out.println("Nota media: " + notaMedia);
-	    
+	    }
 
 	    public void agregarNuevaNota(double nota) {
 	        sumaDeNotas += nota;

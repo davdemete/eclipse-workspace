@@ -35,10 +35,10 @@ public class Ejercicio6 {
 		    }
 
 		    // Métodos
-		    public void mostrarInfo() {}
-		    void agregarnuevanota() {}
+		    public void mostrarInfo() {
+		    public void agregarnuevanota() {}
 		    
-		    
+		    }
 		   
 
 		
