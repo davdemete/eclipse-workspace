@@ -1,0 +1,20 @@
+import java.util.Date;
+
+public class Ejercicio8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        //Atributos
+		int id;
+	    int edad;
+	    int telefono;
+	    int numero De datos;
+	    int suma DeNotas;
+	    float notaMedia;
+		//Metodos
+	    
+		
+		
+	}    
+
+}
