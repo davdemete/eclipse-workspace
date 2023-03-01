@@ -16,10 +16,6 @@ public class Maincoche {
 		float cv = Coche.convertirKwCv(kw);
 		System.out.printf("%f CV",cv).println();
 		
-		//Instacia opel
-		Coche opel = new Coche(100.0f,150.0f,7,4);
-		System.out.println(opel.get.Velocidad);
-		
 	}
 	
 }
