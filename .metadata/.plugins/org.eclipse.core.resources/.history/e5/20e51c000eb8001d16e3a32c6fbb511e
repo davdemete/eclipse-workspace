@@ -1,32 +1,32 @@
 
-public class coche {
+public class Coche {
 	//Constructores
-	public coche() {
+	public Coche() {
 		this.velocidad = 100.0f;
 		this.caballos = 200.0f;
 		this.asientos = 5;
 		this.ruedas = 4;
 	}
-	public coche(float velocidad) {
+	public Coche(float velocidad) {
 		this.velocidad = velocidad;
 		this.caballos = 150.0f;
 		this.asientos = 5;
 		this.ruedas = 4;
 	}
-	public coche(float velocidad, float caballos) {
+	public Coche(float velocidad, float caballos) {
 		this.velocidad = velocidad;
 		this.caballos = caballos;
 		this.asientos = 6;
 		this.ruedas = 6;
 	}
-	public coche(float velocidad, float caballos, 
+	public Coche(float velocidad, float caballos, 
 			int asientos) {
 		this.velocidad = velocidad;
 		this.caballos = caballos;
 		this.asientos = asientos;
 		this.ruedas = 4;
 	}
-	public coche(float velocidad, float caballos, 
+	public Coche(float velocidad, float caballos, 
 			int asientos, int ruedas) {
 		this.velocidad = velocidad;
 		this.caballos = caballos;
@@ -41,9 +41,7 @@ public class coche {
 	public static final float factorConversionCvKw = 1.35f;
 	//Métodos
 	public void parar() {}
-	public void acelerar() {
-	   this.velocidad += 5;
-	}
+	public void acelerar() {}
 	public void desacelerar() {}
 	public void girarIzquierda() {}
 	public void girarDerecha() {}

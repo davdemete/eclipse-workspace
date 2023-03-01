@@ -12,11 +12,11 @@ public class MainEstudiante {
 //		System.out.println(david.getEdad());
 		
 		Estudiante carlos = new Estudiante();
-//		Estudiante carlos = new Estudiante(4);
+		Estudiante carlos = new Estudiante(4);
 		System.out.println(carlos.getEdad());
 		System.out.println(carlos.getTelefono());
-//		System.out.println(Lucia.getEdad());
-//		System.out.println(Lucia.getId());
+		System.out.println(Lucia.getEdad());
+		System.out.println(Lucia.getId());
 		carlos.setEdad(66);
 		System.out.println(carlos.getEdad());
 		
