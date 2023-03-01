@@ -21,7 +21,6 @@ public class MainEstudiante {
 		System.out.println(carlos.getEdad());
 		
 		
-		
 
 	}
 

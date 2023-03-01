@@ -46,19 +46,11 @@ public class Estudiante {
 			private int numeroNotas;
 			private float sumaNotas;
 			private float notaMedia;
-			private boolean reinicio;
 			//Métodos
 			public void mostrarInfo() {}
 			public void agregarNuevaNote() {
 			this.numeroNotas++;
-			this.sumaNotas  +=notaMedia; // Para mantener la nota media
-			public void agregarNuevaNota() {
-				if(reinicio) {
-					this.numeroNotas=0;	
-					this.sumaNotas=0.0f;	
-					this.notaMedia=0.0f;
-				}
-				else agregarNuevaNota();
+			this.sumaNotas  +=notaMedia; // Para mantener la misma 
 
 			}
 			
