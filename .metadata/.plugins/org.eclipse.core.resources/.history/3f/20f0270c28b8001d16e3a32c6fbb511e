@@ -34,15 +34,11 @@ public class coche {
 		this.ruedas = ruedas;
 	}
 	//Atributos
-    private float caballos;
-    
-    public Coche(float velocidad, float caballos, int asientos int orientacionRuedas) {
-       this.velocidad = velocidad
-       this.asientos = asientos
-       this.orientacionRuedas = orientacionRuedas
-    // inicializacion de los atributos especificos del 
-       this.caballos = caballos
-    }
+	private float velocidad;
+	private float caballos;
+	private int asientos;
+	private int ruedas;
+	public static final float factorConversionCvKw = 1.35f;
 	//Métodos
 	public void parar() {}
 	public void acelerar() {
