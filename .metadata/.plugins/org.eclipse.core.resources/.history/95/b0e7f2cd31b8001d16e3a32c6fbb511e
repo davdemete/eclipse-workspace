@@ -51,8 +51,7 @@ public class Estudiante {
 			public void mostrarInfo() {}
 			public void agregarNuevaNote() {
 			this.numeroNotas++;
-			this.sumaNotas  +=notaMedia; 
-			// Para mantener la nota media
+			this.sumaNotas  +=notaMedia; // Para mantener la nota media
 			public void agregarNuevaNota() {
 				if(reinicio) {
 					this.numeroNotas=0;	

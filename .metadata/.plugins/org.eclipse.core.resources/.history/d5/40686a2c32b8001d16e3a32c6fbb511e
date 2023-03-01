@@ -1,5 +1,5 @@
 
-public abstract class Bicicleta extends Vehiculo {
+public class Bicicleta extends Vehiculo {
 	//Contructores
 	public Bicicleta() {}
 	this.cambios= 15;
