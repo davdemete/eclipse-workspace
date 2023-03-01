@@ -1,7 +1,7 @@
 
 public class EjemploPolimorfismo {
 
-	public static void main(String[]args {
+	public static void main(String[]args,
 		// TODO Auto-generated method stub
 		Bicicleta bicicleta = new Bicicleta();
 		Coche coche = new Coche();
@@ -12,7 +12,5 @@ public class EjemploPolimorfismo {
 	}
      public static void invocarParar(Vehiculo vehiculo) {
     	 vehiculo.parar();
-     }
-     
     	 
-
+}
