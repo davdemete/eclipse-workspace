@@ -1,3 +1,4 @@
+import com.appf2.Bicicleta;
 
 public class mainBicicleta {
 

@@ -1,3 +1,5 @@
+import com.appf2.Bicicleta;
+import com.appf2.Vehiculo;
 
 public class EjemploPolimorfismo {
 
@@ -9,6 +11,7 @@ public class EjemploPolimorfismo {
 		Bicicleta  bicicleta bh = new Bicicleta();
 		Coche coche honda = new Coche();
 		Avion avion boeing = new Avion();
+		//Vehiculo es clase abastracta no puede instaciar
 		Main.invocarParar(bicicleta);
 		Main.invocaParar(coche);
 		Main.invocarParar(avion);

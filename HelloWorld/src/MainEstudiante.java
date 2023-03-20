@@ -1,3 +1,5 @@
+import com.clase.info.Estudiante;
+
 public class MainEstudiante {
 
 	public static void main(String[] args) {

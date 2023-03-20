@@ -1,3 +1,4 @@
+import com.appf2.Vehiculo;
 
 public abstract class Avion extends Vehiculo {
 	//Artibutos
@@ -5,4 +6,5 @@ public abstract class Avion extends Vehiculo {
 	//Metodos
 	public void volar() { }
     public void aterrizage() {}
+}
     

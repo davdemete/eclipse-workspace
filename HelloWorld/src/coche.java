@@ -1,5 +1,9 @@
 
 public class coche {
+	private float velocidad;
+	private int asientos;
+	private int ruedas;
+
 	//Constructores
 	public coche() {
 		this.velocidad = 100.0f;
@@ -36,12 +40,12 @@ public class coche {
 	//Atributos
     private float caballos;
     
-    public Coche(float velocidad, float caballos, int asientos int orientacionRuedas) {
-       this.velocidad = velocidad
-       this.asientos = asientos
-       this.orientacionRuedas = orientacionRuedas
+    public void coche1(float velocidad, float caballos, int asientos int orientacionRuedas) {
+       this.velocidad = velocidad;
+       this.asientos = asientos;
+       this.orientacionRuedas = orientacionRuedas;
     // inicializacion de los atributos especificos del 
-       this.caballos = caballos
+       this.caballos = caballos;
     }
 	//Métodos
 	public void parar() {}
